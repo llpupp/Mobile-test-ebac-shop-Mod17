@@ -1,0 +1,32 @@
+{
+  "name": "mobile-test-ebac-shop-mod17",
+  "version": "1.0.0",
+  "description": "Exercício Teste EBAC Mobile - Modulo 17",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio run ./wdio.conf.js",
+    "report": "npx allure open allure-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llpupp/Mobile-test-ebac-shop-Mod17.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llpupp/Mobile-test-ebac-shop-Mod17/issues"
+  },
+  "homepage": "https://github.com/llpupp/Mobile-test-ebac-shop-Mod17#readme",
+  "dependencies": {
+    "@wdio/allure-reporter": "^8.3.5",
+    "@wdio/appium-service": "^8.3.9",
+    "@wdio/browserstack-service": "^8.3.9",
+    "@wdio/cli": "^8.3.3",
+    "@wdio/local-runner": "^8.3.3",
+    "@wdio/mocha-framework": "^8.3.0",
+    "@wdio/spec-reporter": "^8.3.0",
+    "allure-commandline": "^2.21.0",
+    "appium": "^1.22.3",
+    "wdio-video-reporter": "^3.5.0"
+  }
+}

@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Sat Feb 11 12:38:13 BRT 2023","Sat Feb 11 12:38:32 BRT 2023","19143","","Access Admin Panel","","Access Admin Panel","Must register one product","Must register one product",""
+"passed","Fri Feb 17 09:55:55 BRT 2023","Fri Feb 17 09:56:27 BRT 2023","31395","","Access Admin Panel","","Access Admin Panel","should login with valid credentials","should login with valid credentials",""
+"broken","Fri Feb 17 09:56:27 BRT 2023","Fri Feb 17 09:56:44 BRT 2023","17763","","Access Admin Panel","","Access Admin Panel","Must register one product","Must register one product",""
+"broken","Sat Feb 11 12:37:47 BRT 2023","Sat Feb 11 12:38:13 BRT 2023","26171","","Access Admin Panel","","Access Admin Panel","should login with valid credentials","should login with valid credentials",""

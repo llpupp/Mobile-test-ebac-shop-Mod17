@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1676034761020' stop='1676034775869'>
+    <name>Access Admin Panel</name>
+    <title>Access Admin Panel</title>
+    <test-cases>
+        <test-case start='1676034761021' status='broken' stop='1676034770214'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='ebac-qe1 9.0-9'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "id:login_site_creds" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "id:login_site_creds" because element wasn't found
+                    at async loginScreen.clickContinueCredential (C:\repositorio\Mobile-test-ebac-shop-Mod17\test\screens\login.screen.js:23:9)
+                    at async Context.&lt;anonymous> (C:\repositorio\Mobile-test-ebac-shop-Mod17\test\specs\login.spec.js:19:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1676034770215' status='broken' stop='1676034775862'>
+            <name>Must register one product</name>
+            <title>Must register one product</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='ebac-qe1 9.0-9'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "id:products" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "id:products" because element wasn't found
+                    at async registroScreen.goToProducts (C:\repositorio\Mobile-test-ebac-shop-Mod17\test\screens\registro.screen.js:6:9)
+                    at async Context.&lt;anonymous> (C:\repositorio\Mobile-test-ebac-shop-Mod17\test\specs\login.spec.js:28:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

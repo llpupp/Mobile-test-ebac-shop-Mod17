@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1676638555728' stop='1676638604905'>
+    <name>Access Admin Panel</name>
+    <title>Access Admin Panel</title>
+    <test-cases>
+        <test-case start='1676638555730' status='passed' stop='1676638587125'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='samsung galaxy note 20-10.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='9b22731d-41e2-4288-9d74-e0f2f09a6751-attachment.mp4' type='video/mp4' size='159'/>
+            </attachments>
+        </test-case>
+        <test-case start='1676638587135' status='broken' stop='1676638604898'>
+            <name>Must register one product</name>
+            <title>Must register one product</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='samsung galaxy note 20-10.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='5b073987-1204-470a-a5e1-312cb5b3e661-attachment.mp4' type='video/mp4' size='149'/>
+            </attachments>
+            <failure>
+                <message>Can't call setValue on element with selector "id:edit_text" because element wasn't found</message>
+                <stack-trace>Error: Can't call setValue on element with selector "id:edit_text" because element wasn't found
+                    at async registroScreen.addPrice (C:\repositorio\Mobile-test-ebac-shop-Mod17\test\screens\registro.screen.js:48:9)
+                    at async Context.&lt;anonymous> (C:\repositorio\Mobile-test-ebac-shop-Mod17\test\specs\login.spec.js:32:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
